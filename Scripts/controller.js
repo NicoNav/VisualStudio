@@ -4,12 +4,14 @@ var phonecatApp = angular.module('phonecatApp',[]);
 phonecatApp.controller('PhoneListCtrl',function($scope){
 $scope.phones = [{
 'name' : 'Nexus 5 ',
-'snippet' : 'machin truc'}
+'snippet' : 'machin truc',
+'age' : 1
+}
 
 
 
 ];
 
-
+$scope.orderProp = 'age';
 
 });
